@@ -19,6 +19,24 @@ const item = {
 };
 
 const Create = () => {
+  const styles = {
+    container: {
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      height: '100vh',
+    },
+    button: {
+      padding: '10px 20px',
+      fontSize: '16px',
+      backgroundColor: '#4CAF50',
+      color: 'white',
+      border: 'none',
+      cursor: 'pointer',
+      borderRadius: '5px',
+      transition: 'background-color 0.3s',
+    }
+  };
   return (
     <>
       <CommonSection title="Create Item" />
@@ -43,13 +61,13 @@ const Create = () => {
                     <label htmlFor="">Price</label>
                     <input
                       type="number"
-                      placeholder="Enter price for one item (ETH)"
+                      placeholder="Enter price for one item (POL)"
                     />
                   </div>
 
                   <div className="form__input">
-                    <label htmlFor="">Minimum Bid</label>
-                    <input type="number" placeholder="Enter minimum bid" />
+                    <label htmlFor="">Minimum Price</label>
+                    <input type="number" placeholder="Enter minimum Price" />
                   </div>
 
                   <div className=" d-flex align-items-center gap-4">
@@ -78,6 +96,7 @@ const Create = () => {
                       placeholder="Enter description"
                       className="w-100"
                     ></textarea>
+                     <button type="submit" style={styles.button}>Submit</button>
                   </div>
                 </form>
               </div>

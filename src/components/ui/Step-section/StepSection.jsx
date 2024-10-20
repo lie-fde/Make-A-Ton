@@ -7,25 +7,25 @@ import "./step-section.css";
 const STEP__DATA = [
   {
     title: "Setup your wallet",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit eligendi, facilis voluptatum fugit illum ",
+    desc: "Download MetaMask and follow the instructions to create a new wallet, and securely save your recovery phrase. ",
     icon: "ri-wallet-line",
   },
 
   {
     title: "Create your collection",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit eligendi, facilis voluptatum fugit illum ",
+    desc: "Start by defining a unique theme or purpose for your collection. Then use our platoform to mint your NFTs..",
     icon: "ri-layout-masonry-line",
   },
 
   {
     title: "Add your NFTs",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit eligendi, facilis voluptatum fugit illum ",
+    desc: "Contribute your own NFTs to verified fundraising campaigns, providing a unique way to support causes they care about.",
     icon: "ri-image-line",
   },
 
   {
     title: "List them for sale",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit eligendi, facilis voluptatum fugit illum ",
+    desc: "Put your NFTs on a marketplace, where others can view and purchase them. Once listed, the NFT can be sold to a set price.",
     icon: "ri-list-check",
   },
 ];

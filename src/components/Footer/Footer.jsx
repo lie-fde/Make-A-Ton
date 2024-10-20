@@ -76,9 +76,7 @@ const Footer = () => {
                 NFTs
               </h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptate, quod repellat! Quis quos dolorum tenetur fuga?
-                Aspernatur rerum quae amet.
+              An NFT (Non-Fungible Token) is a unique digital asset stored on a blockchain . NFTs are non-fungible each one is unique and cannot be exchanged on a one-to-one basis with another NFT.
               </p>
             </div>
           </Col>
