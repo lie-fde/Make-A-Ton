@@ -24,7 +24,7 @@ hardhat                                   : 2.22.11 <br>
 @openzeppelin/contracts                   : 5.0.2 <br>
 @nomicfoundation/hardhat-ignition-ethers  : 0.15.5 <br>
 
-##UI IMages 
+## UI IMages 
 ![Screenshot 2024-10-20 100457](https://github.com/user-attachments/assets/63098a3d-4eeb-4255-ba00-5576fbf1a337)
 
 ![Screenshot 2024-10-20 100510](https://github.com/user-attachments/assets/899ed542-03c3-4fce-b2bc-d49a67b52abf)
